@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED0708F1AD93EFF0018265F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0708E1AD93EFF0018265F /* AppDelegate.swift */; };
+		CED070911AD93EFF0018265F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070901AD93EFF0018265F /* ViewController.swift */; };
+		CED070941AD93EFF0018265F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED070921AD93EFF0018265F /* Main.storyboard */; };
+		CED070961AD93EFF0018265F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED070951AD93EFF0018265F /* Images.xcassets */; };
+		CED070991AD93EFF0018265F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED070971AD93EFF0018265F /* LaunchScreen.xib */; };
+		CED070A51AD93EFF0018265F /* ZDAnimateTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070A41AD93EFF0018265F /* ZDAnimateTransitionTests.swift */; };
+		CED070B41AD93F290018265F /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070AE1AD93F290018265F /* Animator.swift */; };
+		CED070B51AD93F290018265F /* BaseAnimatedTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070AF1AD93F290018265F /* BaseAnimatedTransitionController.swift */; };
+		CED070B61AD93F290018265F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070B01AD93F290018265F /* DetailViewController.swift */; };
+		CED070B71AD93F290018265F /* FantasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070B11AD93F290018265F /* FantasyViewController.swift */; };
+		CED070B81AD93F290018265F /* ShineptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070B21AD93F290018265F /* ShineptViewController.swift */; };
+		CED070B91AD93F290018265F /* ZDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED070B31AD93F290018265F /* ZDNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED0709F1AD93EFF0018265F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED070811AD93EFF0018265F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED070881AD93EFF0018265F;
+			remoteInfo = ZDAnimateTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED070891AD93EFF0018265F /* ZDAnimateTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDAnimateTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED0708D1AD93EFF0018265F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED0708E1AD93EFF0018265F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED070901AD93EFF0018265F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED070931AD93EFF0018265F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED070951AD93EFF0018265F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CED070981AD93EFF0018265F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CED0709E1AD93EFF0018265F /* ZDAnimateTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDAnimateTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED070A31AD93EFF0018265F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED070A41AD93EFF0018265F /* ZDAnimateTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDAnimateTransitionTests.swift; sourceTree = "<group>"; };
+		CED070AE1AD93F290018265F /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		CED070AF1AD93F290018265F /* BaseAnimatedTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAnimatedTransitionController.swift; sourceTree = "<group>"; };
+		CED070B01AD93F290018265F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CED070B11AD93F290018265F /* FantasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasyViewController.swift; sourceTree = "<group>"; };
+		CED070B21AD93F290018265F /* ShineptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShineptViewController.swift; sourceTree = "<group>"; };
+		CED070B31AD93F290018265F /* ZDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED070861AD93EFF0018265F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0709B1AD93EFF0018265F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED070801AD93EFF0018265F = {
+			isa = PBXGroup;
+			children = (
+				CED0708B1AD93EFF0018265F /* ZDAnimateTransition */,
+				CED070A11AD93EFF0018265F /* ZDAnimateTransitionTests */,
+				CED0708A1AD93EFF0018265F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED0708A1AD93EFF0018265F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED070891AD93EFF0018265F /* ZDAnimateTransition.app */,
+				CED0709E1AD93EFF0018265F /* ZDAnimateTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED0708B1AD93EFF0018265F /* ZDAnimateTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CED0708E1AD93EFF0018265F /* AppDelegate.swift */,
+				CED070901AD93EFF0018265F /* ViewController.swift */,
+				CED070AE1AD93F290018265F /* Animator.swift */,
+				CED070AF1AD93F290018265F /* BaseAnimatedTransitionController.swift */,
+				CED070B01AD93F290018265F /* DetailViewController.swift */,
+				CED070B11AD93F290018265F /* FantasyViewController.swift */,
+				CED070B21AD93F290018265F /* ShineptViewController.swift */,
+				CED070B31AD93F290018265F /* ZDNavigationController.swift */,
+				CED070921AD93EFF0018265F /* Main.storyboard */,
+				CED070951AD93EFF0018265F /* Images.xcassets */,
+				CED070971AD93EFF0018265F /* LaunchScreen.xib */,
+				CED0708C1AD93EFF0018265F /* Supporting Files */,
+			);
+			path = ZDAnimateTransition;
+			sourceTree = "<group>";
+		};
+		CED0708C1AD93EFF0018265F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED0708D1AD93EFF0018265F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED070A11AD93EFF0018265F /* ZDAnimateTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED070A41AD93EFF0018265F /* ZDAnimateTransitionTests.swift */,
+				CED070A21AD93EFF0018265F /* Supporting Files */,
+			);
+			path = ZDAnimateTransitionTests;
+			sourceTree = "<group>";
+		};
+		CED070A21AD93EFF0018265F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED070A31AD93EFF0018265F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED070881AD93EFF0018265F /* ZDAnimateTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED070A81AD93EFF0018265F /* Build configuration list for PBXNativeTarget "ZDAnimateTransition" */;
+			buildPhases = (
+				CED070851AD93EFF0018265F /* Sources */,
+				CED070861AD93EFF0018265F /* Frameworks */,
+				CED070871AD93EFF0018265F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDAnimateTransition;
+			productName = ZDAnimateTransition;
+			productReference = CED070891AD93EFF0018265F /* ZDAnimateTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED0709D1AD93EFF0018265F /* ZDAnimateTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED070AB1AD93EFF0018265F /* Build configuration list for PBXNativeTarget "ZDAnimateTransitionTests" */;
+			buildPhases = (
+				CED0709A1AD93EFF0018265F /* Sources */,
+				CED0709B1AD93EFF0018265F /* Frameworks */,
+				CED0709C1AD93EFF0018265F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED070A01AD93EFF0018265F /* PBXTargetDependency */,
+			);
+			name = ZDAnimateTransitionTests;
+			productName = ZDAnimateTransitionTests;
+			productReference = CED0709E1AD93EFF0018265F /* ZDAnimateTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED070811AD93EFF0018265F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = blurryssky;
+				TargetAttributes = {
+					CED070881AD93EFF0018265F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CED0709D1AD93EFF0018265F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CED070881AD93EFF0018265F;
+					};
+				};
+			};
+			buildConfigurationList = CED070841AD93EFF0018265F /* Build configuration list for PBXProject "ZDAnimateTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED070801AD93EFF0018265F;
+			productRefGroup = CED0708A1AD93EFF0018265F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED070881AD93EFF0018265F /* ZDAnimateTransition */,
+				CED0709D1AD93EFF0018265F /* ZDAnimateTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED070871AD93EFF0018265F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED070941AD93EFF0018265F /* Main.storyboard in Resources */,
+				CED070991AD93EFF0018265F /* LaunchScreen.xib in Resources */,
+				CED070961AD93EFF0018265F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0709C1AD93EFF0018265F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED070851AD93EFF0018265F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED070B41AD93F290018265F /* Animator.swift in Sources */,
+				CED070B91AD93F290018265F /* ZDNavigationController.swift in Sources */,
+				CED070911AD93EFF0018265F /* ViewController.swift in Sources */,
+				CED070B61AD93F290018265F /* DetailViewController.swift in Sources */,
+				CED070B51AD93F290018265F /* BaseAnimatedTransitionController.swift in Sources */,
+				CED0708F1AD93EFF0018265F /* AppDelegate.swift in Sources */,
+				CED070B71AD93F290018265F /* FantasyViewController.swift in Sources */,
+				CED070B81AD93F290018265F /* ShineptViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED0709A1AD93EFF0018265F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED070A51AD93EFF0018265F /* ZDAnimateTransitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED070A01AD93EFF0018265F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED070881AD93EFF0018265F /* ZDAnimateTransition */;
+			targetProxy = CED0709F1AD93EFF0018265F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED070921AD93EFF0018265F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED070931AD93EFF0018265F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED070971AD93EFF0018265F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED070981AD93EFF0018265F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED070A61AD93EFF0018265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED070A71AD93EFF0018265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED070A91AD93EFF0018265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDAnimateTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED070AA1AD93EFF0018265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDAnimateTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED070AC1AD93EFF0018265F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDAnimateTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDAnimateTransition.app/ZDAnimateTransition";
+			};
+			name = Debug;
+		};
+		CED070AD1AD93EFF0018265F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZDAnimateTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDAnimateTransition.app/ZDAnimateTransition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED070841AD93EFF0018265F /* Build configuration list for PBXProject "ZDAnimateTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED070A61AD93EFF0018265F /* Debug */,
+				CED070A71AD93EFF0018265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED070A81AD93EFF0018265F /* Build configuration list for PBXNativeTarget "ZDAnimateTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED070A91AD93EFF0018265F /* Debug */,
+				CED070AA1AD93EFF0018265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED070AB1AD93EFF0018265F /* Build configuration list for PBXNativeTarget "ZDAnimateTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED070AC1AD93EFF0018265F /* Debug */,
+				CED070AD1AD93EFF0018265F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED070811AD93EFF0018265F /* Project object */;
+}
