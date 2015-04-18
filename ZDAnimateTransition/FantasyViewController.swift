@@ -18,8 +18,8 @@ class FantasyViewController: BaseAnimatedTransitionController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let destinationVC = segue.destinationViewController as ShineptViewController
-        destinationVC.view.backgroundColor = sender?.titleColorForState(UIControlState.Normal)
+        let destinationVC = segue.destinationViewController as!ShineptViewController
+        destinationVC.view!.backgroundColor = sender?.titleColorForState(UIControlState.Normal)
         destinationVC.view.alpha = 0.5
         
         self.animator.fromFrame = sender!.frame

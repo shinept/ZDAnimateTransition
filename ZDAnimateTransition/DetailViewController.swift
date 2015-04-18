@@ -16,7 +16,7 @@ class DetailViewController: BaseAnimatedTransitionController ,UITableViewDataSou
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let destinationVC = segue.destinationViewController as FantasyViewController
+        let destinationVC = segue.destinationViewController as! FantasyViewController
         destinationVC.view.backgroundColor = sender?.backgroundColor
         
         self.animator.fromFrame = sender!.frame
@@ -30,7 +30,7 @@ class DetailViewController: BaseAnimatedTransitionController ,UITableViewDataSou
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
         let randomRed = CGFloat(arc4random() % 120) + 135
         let randomGreen = CGFloat(arc4random() % 120) + 135
         let randomBlue = CGFloat(arc4random() % 120) + 135

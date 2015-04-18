@@ -26,7 +26,6 @@ class ViewController: BaseAnimatedTransitionController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        
         let senderWidth : CGFloat = 40
         self.animator.fromFrame = CGRectMake(ZDScreenWidth - senderWidth, 20, senderWidth, 40)
         navigationController!.delegate = self

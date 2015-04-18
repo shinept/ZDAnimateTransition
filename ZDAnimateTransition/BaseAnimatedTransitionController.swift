@@ -10,26 +10,25 @@ import UIKit
 
 class BaseAnimatedTransitionController: UIViewController , UINavigationControllerDelegate{
     
-    var interactionController : UIPercentDrivenInteractiveTransition!
-    
     var animator = Animator()
     
+    var interactionController : UIPercentDrivenInteractiveTransition!
+
     lazy var screenEdgePan : UIScreenEdgePanGestureRecognizer = {
         var pan = UIScreenEdgePanGestureRecognizer(target: self, action: "respondsToEdgePan:")
         pan.edges = UIRectEdge.Left
         return pan
     }()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.view.addGestureRecognizer(screenEdgePan)
-    }
-    
     override func willPopFromNavigationController() {
         navigationController!.delegate = self
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.addGestureRecognizer(screenEdgePan)
+    }
+
     func respondsToEdgePan(sender:UIScreenEdgePanGestureRecognizer ) {
         
         if (sender.state == UIGestureRecognizerState.Began) {
@@ -69,12 +68,12 @@ class BaseAnimatedTransitionController: UIViewController , UINavigationControlle
         println(self.navigationController!.viewControllers.count)
         
         var correctAnimator : Animator?
-
+        //如果是push，应该使用当前的
         if operation == UINavigationControllerOperation.Push {
             correctAnimator = self.animator
         }
+        //如果是pop,则使用之前的
         else if operation == UINavigationControllerOperation.Pop {
-            
             correctAnimator = navigationController.viewControllers.last!.animator
         }
         
